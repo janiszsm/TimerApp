@@ -30,6 +30,16 @@ public class PresetService {
 			}
 		}
 		return null;
+	}
+		
+	// Read all
+	public PresetDetails getAll() {
+		for (PresetDetails preset : presets) {
+			// if (preset.getPresetName().equals(presetName)) {
+			return preset;
+		}
+		// }
+		return null;
 
 	}
 
